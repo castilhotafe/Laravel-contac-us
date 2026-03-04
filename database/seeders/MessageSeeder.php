@@ -46,3 +46,12 @@ class MessageSeeder extends Seeder
         }
     }
 }
+
+//$seedCategories = [['name',
+//    'description',
+//    'code'],];
+//
+//foreach ($seedCategory as $category)
+//{
+//    Category::create($category);
+//}
