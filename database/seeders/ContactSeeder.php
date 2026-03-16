@@ -32,10 +32,10 @@ class ContactSeeder extends Seeder
                     'phone'=> '+61-1-2345-6789',
                 ],
                 [
-                    'given_name' => 'Arnold',
+                    'given_name' => 'Sylvester',
                     'middle_name'=> null,
-                    'family_name'=> 'Schwarzenegger',
-                    'nickname'=> 'Arni',
+                    'family_name'=> 'Stallone',
+                    'nickname'=> null,
                     'email'=> null,
                     'phone'=> null,
                 ],
