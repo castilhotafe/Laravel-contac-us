@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('family_name', 128)->nullable();
             $table->string('nickname', 64)->nullable();
             $table->string('email')->nullable();
-            $table->bigInteger('phone')->nullable();
+            $table->string('phone')->nullable();
             $table->timeStamps();
         });
     }
