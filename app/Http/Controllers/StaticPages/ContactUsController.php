@@ -14,13 +14,13 @@ class ContactUsController extends Controller
         // Get topics
         $topics = Topic::all();
         // return the contact-us view with the topics
-        return view('static_pages.contact-us')
+        return view('web.static.contact-us')
             ->with('topics', $topics);
     }
 
     public function thankyou()
     {
-        return view('static_pages.thank-you');
+        return view('web.static.thank-you');
     }
 
     public function store(Request $request)
