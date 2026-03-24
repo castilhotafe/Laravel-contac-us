@@ -4,9 +4,8 @@ use App\Http\Controllers\StaticPages\ContactUsController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('web.static.welcome')
-        ->name('home');
-});
+    return view('web.static.welcome');
+})->name('home');
 
 Route::get('contact-us', [ContactUsController::class, 'index'])
     ->name('static.contact-us');
